@@ -1,0 +1,224 @@
+  body{
+     font-family: 'Montserrat', sans-serif;
+     text-align: center;
+     color: #CDC2AE;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+    background-image: url("https://cdn.discordapp.com/attachments/856688458860331079/988879713806192750/Oluns_5.png");
+    margin: 0px;
+    padding: 0px;
+    }
+
+
+
+.bg-blue{
+  background-color: #06283D;
+}
+
+.fade-in {
+  opacity: 0;
+}
+
+.hidden{
+  display: none;
+}
+
+
+
+section {
+  margin-bottom: -0.5rem;
+}
+
+
+/* navbar */
+
+.navbar {
+  background-color: #CDC2AE;
+}
+
+.navbar-brand {
+  text-align: left;
+}
+
+/* title section */
+
+#title-section {
+    padding: 21rem 0 21rem 0;
+}
+
+.big-heading {
+  color: #ECE5C7;
+  font-weight: 500;
+  font-size: 8rem;
+  letter-spacing: 1.3rem;
+  /* font-family: 'Helvetica', san-sans-serif; */
+  font-family: 'Roboto Condensed', sans-serif;
+  border: 3px;
+  padding: 0.5em;
+  border-style: solid;
+  /* margin: auto 20rem auto 20rem; */
+}
+
+
+/* @media (max-width: 800px) {
+  .big-heading {
+    font-size: 5rem;
+  }
+} */
+
+/* intro section */
+
+#intro-section {
+  padding-top: 20rem;
+}
+
+.intro-text {
+  padding: 0 20rem 0 20rem;
+}
+
+/* #06283D */
+/* #CDC2AE */
+
+
+
+
+
+/* mobs section */
+
+#mobs-section {
+  line-height: 1.5rem;
+  padding-top: 15rem;
+}
+
+.mobs-section-title{
+  padding-bottom: 3rem;
+}
+
+h2 {
+  font-size: 3rem;
+  padding-bottom: 3%;
+}
+
+.mob-description {
+  /* font-size: 2rem; */
+padding: 5rem;
+/* line-height: 1rem; */
+}
+
+.mob-img {
+object-fit: contain;
+max-width: 100%;
+transform: scale(0.8);
+/* position: relative; */
+}
+
+@media (max-width: 1250px) {
+
+  #title-section{
+    padding-top: 80%;
+    padding-bottom: 80%;
+  }
+  .big-heading {
+      font-size: 5rem;
+      }
+  .intro-text{
+    padding: inherit;
+  }
+  .mob-card {
+    width: 100%;
+    line-height: 3rem;
+
+  }
+  h2 {
+    font-size: 5rem;
+  }
+  p {
+    font-size: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  h3 {
+    font-size: 3rem;
+
+  }
+  .mob-description {
+  font-size: 2rem;
+  /* line-height: 1.5rem; */
+  padding-bottom: 10rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  }
+.notes {
+    line-height: 2.5rem;
+    padding-top: 5rem;
+}
+}
+
+
+
+/* loot section */
+
+#loot-section {
+padding-top: 15rem;
+}
+
+.drop-title {
+  padding-bottom: 1rem;
+
+}
+
+.drop-sec {
+  padding: 2rem;
+}
+
+.popover{
+  max-width: 0;
+  border: 0;
+}
+
+.notes {
+  padding-top: 3rem;
+}
+
+
+/* rotation section */
+
+#rotation-section {
+  padding-top: 8rem;
+  padding-Bottom:8rem;
+}
+
+/* attacks section */
+
+#attacks-section {
+  /* padding-top: 5rem; */
+}
+
+.scale-down{
+  transform: scale(0.8);
+
+}
+
+.nuke{
+  color: red;
+  font-weight: bold;
+}
+
+
+/* footer section */
+
+#footer-section {
+  padding-top: 5rem;
+  background-color: #8CC0DE;
+  width: 100%;
+  height: 10rem;
+  color: 	#101010;
+  font-size: 1rem;
+}
+
+.compass {
+  width: 1rem;
+  height: auto;
+}
