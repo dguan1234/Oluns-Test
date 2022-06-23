@@ -127,11 +127,6 @@ transform: scale(0.8);
   #title-section{
     padding-top: 80%;
     padding-bottom: 80%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-position: center, center;
-   background-image: url("https://cdn.discordapp.com/attachments/856688458860331079/989671042098278400/background-down.png");
   }
   .title-bg{
 
