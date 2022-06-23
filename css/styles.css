@@ -51,6 +51,15 @@ section {
    background-image: url("https://cdn.discordapp.com/attachments/856688458860331079/988879713806192750/Oluns_5.png");
 }
 
+.title-bg {
+position: fixed;
+top: 0;
+left: 0;
+z-index: -1;
+min-width: 100%;
+min-height: 100%;
+}
+
 .big-heading {
   color: #ECE5C7;
   font-weight: 500;
@@ -118,6 +127,10 @@ transform: scale(0.8);
   #title-section{
     padding-top: 80%;
     padding-bottom: 80%;
+    background-image: url("https://cdn.discordapp.com/attachments/856688458860331079/989671042098278400/background-down.png");
+  }
+  .title-bg{
+
   }
   .big-heading {
       font-size: 5rem;
@@ -130,9 +143,7 @@ transform: scale(0.8);
     line-height: 3rem;
 
   }
-  h2 {
-    font-size: 5rem;
-  }
+
   p {
     font-size: 2rem;
     padding-left: 5rem;
