@@ -2,11 +2,11 @@
      font-family: 'Montserrat', sans-serif;
      text-align: center;
      color: #CDC2AE;
-     background-size: cover;
+     /* background-size: cover;
      background-repeat: no-repeat;
-     /* background-attachment: fixed; */
+     background-attachment: fixed;
      background-position: center, center;
-    background-image: url("https://cdn.discordapp.com/attachments/856688458860331079/988879713806192750/Oluns_5.png");
+    background-image: url("https://cdn.discordapp.com/attachments/856688458860331079/988879713806192750/Oluns_5.png"); */
     }
 
 
@@ -44,6 +44,11 @@ section {
 
 #title-section {
     padding: 21rem 0 21rem 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center, center;
+   background-image: url("https://cdn.discordapp.com/attachments/856688458860331079/988879713806192750/Oluns_5.png");
 }
 
 .big-heading {
@@ -60,11 +65,7 @@ section {
 }
 
 
-/* @media (max-width: 800px) {
-  .big-heading {
-    font-size: 5rem;
-  }
-} */
+
 
 /* intro section */
 
@@ -151,6 +152,13 @@ transform: scale(0.8);
 .notes {
     line-height: 2.5rem;
     padding-top: 5rem;
+}
+
+.atk-desc {
+  display: none;
+}
+h5 {
+  font-size: 2rem;
 }
 }
 
