@@ -46,7 +46,7 @@ section {
     padding: 21rem 0 21rem 0;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center, center;
    background-image: url("https://cdn.discordapp.com/attachments/856688458860331079/988879713806192750/Oluns_5.png");
 }
